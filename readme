@@ -1,0 +1,79 @@
+# Property Management App
+
+This is a property management app built with React and Ionic. The app allows users to manage property listings, including adding new properties, viewing details, and editing existing properties.
+
+## Features
+
+- **View Property Listings**: See a list of all properties with their details.
+- **Add New Properties**: Create and add new properties with details such as location, rooms, price, and photos.
+- **Edit Properties**: Update the details of existing properties.
+- **Manage Photos**: Add, edit, or delete photos associated with properties.
+
+## Prerequisites
+
+Before running the application, ensure you have the following installed:
+
+- **Node.js**: Version 14.x or higher
+- **npm**: Version 6.x or higher
+- **Ionic CLI**: Install globally using `npm install -g @ionic/cli`
+
+## Getting Started
+
+Follow these steps to get the application running locally:
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/iqbalnur21/property-management-app.git
+cd property-management-app
+```
+
+### 2. Install Dependencies
+
+Run the following command to install all necessary dependencies:
+
+```bash
+npm install
+```
+
+### 3. Run the Application
+
+Start the development server with:
+
+```bash
+ionic serve
+```
+
+This will open the app in your default web browser at http://localhost:8100.
+
+### 4. Access the Application
+
+To access different features:
+
+- **Home Page**: View all listed properties.
+- **Add Property**: Use the "Add Property" button to create a new property.
+- **Edit Property**: Click on a property to edit its details.
+
+### 5. Building for Production
+
+To build the app for production, use:
+
+```bash
+ionic build --prod
+```
+
+The optimized output will be in the build/ directory.
+
+## Project Structure
+
+- **src/components**: Reusable React components.
+- **src/pages**: Main application pages (e.g., PropertyDetail, Home).
+- **src/types**: TypeScript types used throughout the app.
+- **src/App.tsx**: Main entry point of the application.
+
+## Technologies Used
+
+- **React**: JavaScript library for building user interfaces.
+- **Ionic**: Cross-platform mobile and web app development framework.
+- **TypeScript**: Typed superset of JavaScript for better development experience.
+- **LocalStorage**: Used for storing property data locally.
