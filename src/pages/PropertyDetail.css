@@ -1,0 +1,53 @@
+
+
+.photo-upload-input {
+  width: 100%;
+}
+
+.property-photo {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.photo-action-button-delete,
+.photo-action-button-edit {
+  margin-top: -90px;
+  margin-right: 5px;
+  position: absolute;
+  bottom: 10px; 
+}
+.photo-action-button-edit {
+  color: orange !important ;
+  margin-left: 100px;
+}
+.photo-action-button-delete {
+  color: red !important ;
+  margin-left: 30px;
+}
+
+.photo-gallery {
+  overflow-x: auto; 
+  white-space: nowrap; 
+}
+
+.photo-gallery-row {
+  display: flex; 
+  flex-wrap: nowrap; 
+}
+
+.photo-col {
+  display: inline-block; 
+  position: relative; 
+}
+
+.property-photo {
+  height: 300px; 
+  object-fit: contain; 
+  width: 100%; 
+}
+
+.photo-action-button-delete,
+.photo-action-button-edit {
+  position: absolute;
+  bottom: 10px; 
+}

@@ -1,0 +1,51 @@
+/* global.css */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff; /* Ensure background isn't black */
+  color: #000000; /* Ensure text color is visible */
+}
+.ion-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+/* Show the horizontal menu only on larger screens */
+.horizontal-menu {
+  display: none;
+}
+
+/* Hide the side menu toggle button on larger screens */
+.ion-menu-button {
+  display: block;
+}
+.ion-page {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  /* Show the horizontal menu on larger screens */
+  .horizontal-menu {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+  }
+  .ion-menu {
+    display: flex;
+  }
+  /* Hide the side menu toggle button on larger screens */
+  .ion-menu-button {
+    display: none;
+  }
+}
+
+ion-item[value="Logout"] {
+  color: red;
+}
+
+.property-photo {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+.fab {
+  margin-left: 20px;
+}

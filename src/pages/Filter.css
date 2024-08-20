@@ -3,7 +3,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* overflow: hidden;  */
+  overflow: hidden; 
+  padding: 16px; 
 }
 
 .card-container {
@@ -11,10 +12,18 @@
   flex-wrap: wrap;
   gap: 16px; 
   justify-content: center; 
-  /* margin-bottom: 100px; */
+  margin-bottom: 100px;
 }
 
 .property-card {
   width: 300px; 
   box-sizing: border-box;
+}
+
+ion-item {
+  margin-bottom: 16px;
+}
+
+ion-select, ion-range {
+  width: 100%;
 }
